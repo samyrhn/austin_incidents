@@ -17,4 +17,5 @@ In general terms, to setup your GCP environment, you would do the following in y
 3. Set up your default desired project with "gcloud config set project your_project"
 4. Acquire your credentials with "gcloud application-default login".
 
-One of the visuals included in the notebook is a Map. Unfortunately, notebooks uploaded to github apparently can't handle map visuals. To visualize the heatmap, you can download the .html version and open it up in your browser.
+One of the visuals included in the notebook is a Map. Unfortunately, notebooks uploaded to github apparently can't handle map visuals. To visualize the heatmap, you can access the following nbviewer link:
+https://nbviewer.jupyter.org/github/samyrhn/austin_incidents/blob/main/austin_incidents_notebook.ipynb
