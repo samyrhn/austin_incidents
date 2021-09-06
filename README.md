@@ -6,8 +6,8 @@ In this project, the following will be done:
 
 Our code will be responsible for:
 - Receiving a string date as an input
-- Read data according to the input
-- Insert this data in a BigQuery table
+- Reading data according to the input
+- Inserting this data in a BigQuery table
 
 Unfortunately, you won't be able to run this code in your machine due to the GBQ data privacy policies. 
 In general terms, to setup your GCP environment, you would do the following in your terminal:
@@ -17,5 +17,5 @@ In general terms, to setup your GCP environment, you would do the following in y
 3. Set up your default desired project with "gcloud config set project your_project"
 4. Acquire your credentials with "gcloud application-default login".
 
-One of the visuals included in the notebook is a Map. Unfortunately, notebooks uploaded to github apparently can't handle map visuals. To visualize the heatmap, you can access the following nbviewer link:
+One of the visuals included in the notebook is a Map, and notebooks uploaded to github apparently can't handle map visuals. To visualize the heatmap, you can access the following nbviewer link:
 https://nbviewer.jupyter.org/github/samyrhn/austin_incidents/blob/main/austin_incidents_notebook.ipynb
